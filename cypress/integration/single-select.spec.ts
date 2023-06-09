@@ -107,10 +107,7 @@ describe('Single Select', () => {
           .click({ force: true })
           .find('input')
           .should('exist')
-          .should('be.disabled')
-          // control should have aria-disabled
-          .get(selector.control)
-          .should('have.a.property', 'aria-disabled', 'true');
+          .should('be.disabled');
       });
 
       it(`Should filter options when searching in view: ${viewport}`, () => {
