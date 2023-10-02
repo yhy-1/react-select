@@ -1,5 +1,17 @@
 # react-select
 
+## 5.7.6
+
+### Patch Changes
+
+- [`f6315cd5`](https://github.com/JedWatson/react-select/commit/f6315cd5feddb2e9ea168bcad391b29990b53afb) [#5672](https://github.com/JedWatson/react-select/pull/5672) Thanks [@tu4mo](https://github.com/tu4mo)! - Fix for calling non-cancellable scroll events
+
+## 5.7.5
+
+### Patch Changes
+
+- [`9d1730ba`](https://github.com/JedWatson/react-select/commit/9d1730ba4f97a51d25c7e704acd1a4c2be8f7182) [#5347](https://github.com/JedWatson/react-select/pull/5347) Thanks [@aszmyd](https://github.com/aszmyd)! - Make scroll lock div work on a document context it belongs to
+
 ## 5.7.4
 
 ### Patch Changes
